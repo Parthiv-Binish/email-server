@@ -1,8 +1,9 @@
 {
   "name": "email-server",
   "version": "1.0.0",
-  "type": "module",
+  "main": "api/send-email.js",
+  "license": "MIT",
   "dependencies": {
-    "nodemailer": "^6.9.8"
+    "nodemailer": "^6.9.1"
   }
 }
